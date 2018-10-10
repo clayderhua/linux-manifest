@@ -20,11 +20,11 @@
   <project remote="advantech-github" name="linux_external" path="external" revision="rk3399_linux_release"/>
   <project remote="advantech-github" name="linux_rkbin" path="rkbin" revision="rk3399_linux_release"/>
   <project remote="advantech-github" name="linux_rootfs" path="rootfs" revision="rk3399_linux_release"/>
-  <project remote="advantech-github" name="linux_tools" path="tools" revision="rk3399_linux_release"/>
+  <project remote="advantech-github" name="linux_tools" path="tools" revision="rk3399_linux_release">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
-</project>
+  </project>
 </manifest>
