@@ -10,7 +10,7 @@
   </project>
   <project remote="advantech-github" name="linux_device" path="device" revision="rk3399_linux_release">
     <linkfile dest="mkfirmware.sh" src="rockchip/common/mkfirmware.sh"/>
-    <linkfile dest="build.sh" src="rockchip/common/build_all.sh"/>
+    <linkfile dest="build.sh" src="rockchip/common/build.sh"/>
     <linkfile dest="rkflash.sh" src="rockchip/common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rockchip/rk3399/BoardConfig.mk"/>
   </project>
