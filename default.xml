@@ -9,13 +9,10 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project remote="advantech-github" name="linux_device" path="device" revision="rk3399_linux_release">
-    <linkfile dest="mkfirmware.sh" src="rockchip/rk3399/mkfirmware.sh"/>
-    <linkfile dest="build_all.sh" src="rockchip/rk3399/build_all.sh"/>
-    <linkfile dest="mk-kernel.sh" src="rockchip/rk3399/mk-kernel.sh"/>
-    <linkfile dest="mk-rootfs.sh" src="rockchip/rk3399/mk-rootfs.sh"/>
-    <linkfile dest="mk-recovery.sh" src="rockchip/rk3399/mk-recovery.sh"/>
-    <linkfile dest="mk-uboot.sh" src="rockchip/rk3399/mk-uboot.sh"/>
-    <linkfile dest="rkflash.sh" src="rockchip/rk3399/rkflash.sh"/>
+    <linkfile dest="mkfirmware.sh" src="rockchip/common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="rockchip/common/build_all.sh"/>
+    <linkfile dest="rkflash.sh" src="rockchip/common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rockchip/rk3399/BoardConfig.mk"/>
   </project>
   <project remote="advantech-github" name="linux_kernel-rk" path="kernel" revision="rk3399_linux_release"/>
   <project remote="advantech-github" name="linux_u-boot-rk" path="u-boot" revision="rk3399_linux_release"/>
@@ -24,4 +21,10 @@
   <project remote="advantech-github" name="linux_rkbin" path="rkbin" revision="rk3399_linux_release"/>
   <project remote="advantech-github" name="linux_rootfs" path="rootfs" revision="rk3399_linux_release"/>
   <project remote="advantech-github" name="linux_tools" path="tools" revision="rk3399_linux_release"/>
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
+</project>
 </manifest>
