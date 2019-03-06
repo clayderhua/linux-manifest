@@ -16,7 +16,7 @@
   <project name="linux_kernel-rk" path="kernel" remote="advantech-github" revision="660d334344ed987a4419649909f537bdcd4a9b1e" upstream="rk3288_linux_v2.0"/>
   <project name="linux_prebuilts" path="prebuilts" remote="advantech-github" revision="f0cc04c2bcdbb94cd74bbe7b284c1fb1586df1af" upstream="rk3288_linux_v2.0"/>
   <project name="linux_rkbin" path="rkbin" remote="advantech-github" revision="67b0424fda232cf6ef3537b2e8a0fd4c42bf4695" upstream="rk3288_linux_v2.0"/>
-  <project name="linux_rootfs" path="rootfs" remote="advantech-github" revision="8073fc84036209584ada9c2174d2be1bbfbedb4a" upstream="rk3288_linux_v2.0"/>
+  <project name="linux_rootfs" path="rootfs" remote="advantech-github" revision="e00497210bc04382291d41b1d160645ded8aa035" upstream="rk3288_linux_v2.0"/>
   <project name="linux_tools" path="tools" remote="advantech-github" revision="1ff9e5276ee02a48137bda286debf12848835852" upstream="rk3288_linux_v2.0"/>
   <project name="linux_u-boot-rk" path="u-boot" remote="advantech-github" revision="ea8713b04eac5c29960fc59056f4b7bce973ca50" upstream="rk3288_linux_v2.0"/>
 </manifest>
