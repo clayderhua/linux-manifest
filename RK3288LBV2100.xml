@@ -13,7 +13,7 @@
     <linkfile dest="rkflash.sh" src="rockchip/common/rkflash.sh"/>
   </project>
   <project name="linux_external" path="external" remote="advantech-github" revision="7244a12e29a19502e7433bfec4807556feb8584c" upstream="rk3288_linux_v2.0"/>
-  <project name="linux_kernel-rk" path="kernel" remote="advantech-github" revision="2150a4b5a74c63f071b04ce6d12e814bc094dca5" upstream="rk3288_linux_v2.0"/>
+  <project name="linux_kernel-rk" path="kernel" remote="advantech-github" revision="b403d20267eee5207e907b31f48046228e221f92" upstream="rk3288_linux_v2.0"/>
   <project name="linux_prebuilts" path="prebuilts" remote="advantech-github" revision="f0cc04c2bcdbb94cd74bbe7b284c1fb1586df1af" upstream="rk3288_linux_v2.0"/>
   <project name="linux_rkbin" path="rkbin" remote="advantech-github" revision="67b0424fda232cf6ef3537b2e8a0fd4c42bf4695" upstream="rk3288_linux_v2.0"/>
   <project name="linux_rootfs" path="rootfs" remote="advantech-github" revision="1db3753ac633b58238813ef95e021dc465bec164" upstream="rk3288_linux_v2.0"/>
